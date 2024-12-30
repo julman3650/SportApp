@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport Timer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main-content">
+            <!-- Timer Card -->
+            <div class="timer-card">
+                <h1 class="app-title">Sport Timer</h1>
+                
+                <div class="discipline-select-container">
+                    <select id="discipline" class="discipline-select">
+                        <option value="">Wybierz dyscyplinę</option>
+                        <option value="bieganie">Bieganie</option>
+                        <option value="rower">Rower</option>
+                        <option value="pływanie">Pływanie</option>
+                        <option value="spacer">Spacer</option>
+                        <option value="joga">Joga</option>
+                    </select>
+                </div>
+
+                <div class="timer-display">
+                    <div id="timer" class="timer-value">00:00:00</div>
+                    <div id="calories" class="calories-value">Spalone kalorie: 0</div>
+                </div>
+
+                <div class="button-container">
+                    <button id="startButton" class="btn btn-start">Start</button>
+                    <button id="stopButton" class="btn btn-stop">Zakończ</button>
+                </div>
+            </div>
+
+            <!-- Tabs Navigation -->
+            <div class="tabs-container">
+                <nav class="tabs-nav">
+                    <button class="tab-button active" data-tab="history">Historia</button>
+                    <button class="tab-button" data-tab="stats">Statystyki</button>
+                </nav>
+
+                <!-- History Tab -->
+                <div id="history" class="tab-content active">
+                    <div class="history-card">
+                        <h2 class="section-title">Historia aktywności</h2>
+                        <div class="table-responsive">
+                            <table class="history-table">
+                                <thead>
+                                    <tr>
+                                        <th>Data</th>
+                                        <th>Dyscyplina</th>
+                                        <th>Czas</th>
+                                        <th>Kalorie</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="activitiesTable">
+                                    <!-- Dane będą dodawane dynamicznie przez JavaScript -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stats Tab -->
+                <div id="stats" class="tab-content">
+                    <div class="stats-card">
+                        <h2 class="section-title">Statystyki</h2>
+                        <div class="charts-container">
+                            <div class="chart-wrapper">
+                                <h3 class="chart-title">Spalone kalorie</h3>
+                                <canvas id="caloriesChart"></canvas>
+                            </div>
+                            <div class="chart-wrapper">
+                                <h3 class="chart-title">Czas treningów</h3>
+                                <canvas id="timeChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+Version 2 of 2
+
+
+

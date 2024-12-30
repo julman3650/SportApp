@@ -1,0 +1,6 @@
+@SportTimerAppNew_HostAddress = http://localhost:5129
+
+GET {{SportTimerAppNew_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Public\\Aleksandra Kowalczuk\\SportTimerAppNew\\wwwroot\\idex.html",
+      "PackagePath": "staticwebassets\\idex.html"
+    },
+    {
+      "Id": "C:\\Users\\Public\\Aleksandra Kowalczuk\\SportTimerAppNew\\wwwroot\\script.js",
+      "PackagePath": "staticwebassets\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\Public\\Aleksandra Kowalczuk\\SportTimerAppNew\\wwwroot\\styles.css",
+      "PackagePath": "staticwebassets\\styles.css"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.SportTimerAppNew.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.SportTimerAppNew.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.SportTimerAppNew.props",
+      "PackagePath": "build\\SportTimerAppNew.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.SportTimerAppNew.props",
+      "PackagePath": "buildMultiTargeting\\SportTimerAppNew.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.SportTimerAppNew.props",
+      "PackagePath": "buildTransitive\\SportTimerAppNew.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
